@@ -35,7 +35,7 @@ Using Active Directory Users and Computers (ADUC), I located Maya Johnson's acco
 
 I confirmed that Maya belonged to the `HR_Specialists` security group.
 
-![AD Group Membership](screenshots/01_AD_Group_Membership.png)
+![AD Group Membership](Screenshots/01_AD_Group_Membership.png)
 
 ### 2. Inspected NTFS Permissions
 
@@ -43,7 +43,7 @@ On the domain controller, I navigated to `C:\Shares\HR` and inspected the folder
 
 I confirmed that `HR_Specialists` had Modify, Read, Write, and other applicable permissions, excluding Full Control.
 
-![NTFS Permissions](screenshots/02_NTFS_Permissions.png)
+![NTFS Permissions](Screenshots/02_NTFS_Permissions.png)
 
 ### 3. Inspected Network Share Permissions
 
@@ -51,7 +51,7 @@ I reviewed the folder's Advanced Sharing settings and confirmed that `HR_Special
 
 This helped verify that both NTFS and Share permissions allowed the employee to access and modify files over the network.
 
-![Share Permissions](screenshots/03_Share_Permissions.png)
+![Share Permissions](Screenshots/03_Share_Permissions.png)
 
 ### 4. Tested Access from the Client Workstation
 
@@ -121,7 +121,7 @@ Using Active Directory Users and Computers (ADUC), I located Maya Johnson's acco
 
 I confirmed that Maya belonged to the `HR_Specialists` security group.
 
-![AD Group Membership](screenshots/01_AD_Group_Membership.png)
+![AD Group Membership](Screenshots/01_AD_Group_Membership.png)
 
 ### 2. Inspected NTFS Permissions
 
@@ -129,7 +129,7 @@ On the domain controller, I navigated to `C:\Shares\HR` and inspected the folder
 
 I confirmed that `HR_Specialists` had Modify, Read, Write, and other applicable permissions, excluding Full Control.
 
-![NTFS Permissions](screenshots/02_NTFS_Permissions.png)
+![NTFS Permissions](Screenshots/02_NTFS_Permissions.png)
 
 ### 3. Inspected Network Share Permissions
 
@@ -137,7 +137,7 @@ I reviewed the folder's Advanced Sharing settings and confirmed that `HR_Special
 
 This helped verify that both NTFS and Share permissions allowed the employee to access and modify files over the network.
 
-![Share Permissions](screenshots/03_Share_Permissions.png)
+![Share Permissions](Screenshots/03_Share_Permissions.png)
 
 ### 4. Tested Access from the Client Workstation
 
